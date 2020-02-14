@@ -1,0 +1,20 @@
+:root {
+	--color-0: #ffffff;
+}
+
+@font-face {
+	font-family: "Yanolja";
+	src: url("./fonts/Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Yanolja";
+	src: url("./fonts/Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	font-family: Yanolja,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
