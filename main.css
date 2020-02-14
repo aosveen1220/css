@@ -1,1 +1,22 @@
 @import url("./common.css");
+
+/* 배경 그라데이션 */
+html {
+	background: linear-gradient(180deg, #ffffff 0%, var(--color-bg-1) 20%, var(--color-bg-0) 80%);
+	height: auto;
+}
+body {
+	background: transparent;
+}
+
+/* 폰트 사이즈 조절 */
+#article-list > .article-list-row > .item > .list-title,
+#main .menu-wrapper {
+	font-size: var(--font-title);
+}
+#article-list #article-list-category > a {
+	font-size: var(--font-sub-title);
+}
+#board-info #board-info-bottom a {
+	font-size: var(--font-sub);
+}

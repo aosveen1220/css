@@ -1,5 +1,10 @@
 :root {
-	--color-0: #ffffff;
+	--color-gray: #8a8a8a;
+	--color-bg-0: #6baca1;
+	--color-bg-1: #add8d1;
+	--font-title: 16px;
+	--font-sub-title: 15px;
+	--font-sub: 13px;
 }
 
 @font-face {
