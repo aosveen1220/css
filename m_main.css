@@ -1,1 +1,7 @@
 @import url("./common.css");
+html {
+	background: transparent;
+}
+header {
+	border-bottom-color: var(--color-gray);
+}

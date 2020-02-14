@@ -25,6 +25,10 @@
 	font-family: Yanolja,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+body {
+	background: transparent;
+}
+
 /* 접속자 수 */
 #viewers:before {
 	content: '울고있는 맹꽁이 ';
@@ -34,9 +38,27 @@
 	color: var(--color-gray);
 }
 
+/* 카테고리 */
+#article-list #article-list-category,
+#article-list #article-list-category > a {
+	background: transparent;
+	border: none;
+	color: var(--color-gray);
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover {
+	background: #efefef;
+}
+
+/* 게시판 추천수, 작성자 색 */
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
 	color: var(--color-gray);
 }
 #article-list > .article-list-row > .item > .list-header > span {
 	background-color: var(--color-gray);
+}
+
+/* 공지 배경색 */
+#article-list > .article-list-row.notice {
+	background-color: var(--color-light-gray);
 }
