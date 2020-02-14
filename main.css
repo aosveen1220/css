@@ -64,7 +64,7 @@ header #header-bar > .row {
 /* 프로필 이미지 위치 조정 */
 #board-info #board-info-profile-img {
 	float: left !important;
-	border: 3px solid var(--color-gary);
+	border: 3px solid var(--color-gray);
 	border-radius: 100%;
 }
 #board-info h1 {
@@ -75,4 +75,24 @@ header #header-bar > .row {
 #main #main-content > div.frame {
 	border: none;
 	border-radius: 15px;
+}
+
+/* 카테고리 */
+#article-list #article-list-category,
+#article-list #article-list-category > a {
+	background: transparent;
+	border: none;
+	color: var(--color-gray);
+}
+#article-list #article-list-category > a.active,
+#article-list #article-list-category > a:hover {
+	background: #efefef;
+}
+/* 광고창 배경 */
+#article-list-category + div {
+	background: var(--color-light-gray) !important;
+}
+/* 공지 배경색 */
+#article-list > .article-list-row.notice {
+	background-color: var(--color-light-gray);
 }
