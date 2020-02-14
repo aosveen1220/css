@@ -23,3 +23,19 @@
 * {
 	font-family: Yanolja,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+/* 접속자 수 */
+#viewers:before {
+	content: '울고있는 맹꽁이 ';
+}
+
+#board-info #board-info-bottom a {
+	color: var(--color-gray);
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+	color: var(--color-gray);
+}
+#article-list > .article-list-row > .item > .list-header > span {
+	background-color: var(--color-gray);
+}
