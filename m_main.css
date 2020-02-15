@@ -5,3 +5,10 @@ html {
 header {
 	border-bottom-color: var(--color-gray);
 }
+
+/* 메인 로고 */
+header > #header-area > a > h1 {
+	width: 92px;
+	background: url(./images/logo.png) no-repeat;
+	background-size: contain;
+}

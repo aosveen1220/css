@@ -43,6 +43,19 @@ body {
 	animation: latreille 60s linear infinite;
 }
 
+/* 메인 로고 */
+header .row > div:first-child > a {
+	display: block;
+	width: 140px;
+	height: 50px;
+	background-image: url(./images/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+header .row > div:first-child > a > img {
+	display: none;
+}
+
 /* 폰트 사이즈 조절 */
 #article-list > .article-list-row > .item > .list-title,
 #main .menu-wrapper {
