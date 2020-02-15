@@ -6,6 +6,43 @@ html {
 	height: auto;
 }
 
+/* 반딧불 */
+@keyframes latreille {
+	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
+	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
+	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+}
+@-moz-keyframes latreille {
+	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
+	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
+	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+}
+@-webkit-keyframes latreille {
+	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
+	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
+	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+}
+@-ms-keyframes latreille {
+	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
+	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
+	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
+}
+body {
+	background-image: url(./images/bg-1.png), url(./images/bg-2.png), url(./images/bg-3.png);
+	-webkit-animation: latreille 60s linear infinite;
+	-moz-animation: latreille 60s linear infinite;
+	-ms-animation: latreille 60s linear infinite;
+	animation: latreille 60s linear infinite;
+}
+
 /* 폰트 사이즈 조절 */
 #article-list > .article-list-row > .item > .list-title,
 #main .menu-wrapper {
