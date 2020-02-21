@@ -9,34 +9,58 @@ html {
 /* 반딧불 */
 @keyframes latreille {
 	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
-	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
-	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
-	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	10% {background-position: 20px 10px, 186px 210px, 490px 490px;}
+	20% {background-position: 15px 30px, 130px 219px, 480px 500px;}
+	30% {background-position: 50px 40px, 140px 180px, 470px 510px;}
+	40% {background-position: 70px 60px, 154px 176px, 480px 500px;}
+	50% {background-position: 30px 50px, 168px 172px, 490px 490px;}
+	60% {background-position: 32px 48px, 140px 190px, 500px 480px;}
+	70% {background-position: 26px 41px, 154px 210px, 490px 490px;}
+	80% {background-position: 10px 20px, 190px 230px, 480px 500px;}
+	90% {background-position: -5px 6px, 221px 240px, 490px 510px;}
 	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
 }
 @-moz-keyframes latreille {
 	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
-	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
-	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
-	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	10% {background-position: 20px 10px, 186px 210px, 490px 490px;}
+	20% {background-position: 15px 30px, 130px 219px, 480px 500px;}
+	30% {background-position: 50px 40px, 140px 180px, 470px 510px;}
+	40% {background-position: 70px 60px, 154px 176px, 480px 500px;}
+	50% {background-position: 30px 50px, 168px 172px, 490px 490px;}
+	60% {background-position: 32px 48px, 140px 190px, 500px 480px;}
+	70% {background-position: 26px 41px, 154px 210px, 490px 490px;}
+	80% {background-position: 10px 20px, 190px 230px, 480px 500px;}
+	90% {background-position: -5px 6px, 221px 240px, 490px 510px;}
 	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
 }
 @-webkit-keyframes latreille {
 	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
-	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
-	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
-	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	10% {background-position: 20px 10px, 186px 210px, 490px 490px;}
+	20% {background-position: 15px 30px, 130px 219px, 480px 500px;}
+	30% {background-position: 50px 40px, 140px 180px, 470px 510px;}
+	40% {background-position: 70px 60px, 154px 176px, 480px 500px;}
+	50% {background-position: 30px 50px, 168px 172px, 490px 490px;}
+	60% {background-position: 32px 48px, 140px 190px, 500px 480px;}
+	70% {background-position: 26px 41px, 154px 210px, 490px 490px;}
+	80% {background-position: 10px 20px, 190px 230px, 480px 500px;}
+	90% {background-position: -5px 6px, 221px 240px, 490px 510px;}
 	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
 }
 @-ms-keyframes latreille {
 	0% {background-position: 0px 0px, 250px 250px, 500px 500px;}
-	25% {background-position: 50px 100px, 140px 330px, 400px 450px;}
-	50% {background-position: 10px 200px, 200px 220px, 450px 400px;}
-	75% {background-position: 180px 60px, 370px 110px, 480px 450px;}
+	10% {background-position: 20px 10px, 186px 210px, 490px 490px;}
+	20% {background-position: 15px 30px, 130px 219px, 480px 500px;}
+	30% {background-position: 50px 40px, 140px 180px, 470px 510px;}
+	40% {background-position: 70px 60px, 154px 176px, 480px 500px;}
+	50% {background-position: 30px 50px, 168px 172px, 490px 490px;}
+	60% {background-position: 32px 48px, 140px 190px, 500px 480px;}
+	70% {background-position: 26px 41px, 154px 210px, 490px 490px;}
+	80% {background-position: 10px 20px, 190px 230px, 480px 500px;}
+	90% {background-position: -5px 6px, 221px 240px, 490px 510px;}
 	100% {background-position: 0px 0px, 250px 250px, 500px 500px;}
 }
 body {
-	background-image: url(./images/bg-1.png), url(./images/bg-2.png), url(./images/bg-3.png);
+	background-image: url(./images/new-bg-1.png), url(./images/new-bg-2.png), url(./images/new-bg-3.png);
 	-webkit-animation: latreille 60s linear infinite;
 	-moz-animation: latreille 60s linear infinite;
 	-ms-animation: latreille 60s linear infinite;
