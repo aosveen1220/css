@@ -81,15 +81,8 @@ header .row > div:first-child > a > img {
 }
 
 /* 폰트 사이즈 조절 */
-#article-list > .article-list-row > .item > .list-title,
-#main .menu-wrapper {
-	font-size: var(--font-title);
-}
-#article-list #article-list-category > a {
-	font-size: var(--font-sub-title);
-}
-#board-info #board-info-bottom a {
-	font-size: var(--font-sub);
+#header-menu-left {
+	font-size: 13px;	
 }
 
 /* 검색창 */
